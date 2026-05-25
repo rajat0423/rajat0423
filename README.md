@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/rajat-tripathi-a6217424b" target="_blank">
+  <a href="https://www.linkedin.com/in/rajat-tripathi-a048a5295/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:trajat905@gmail.com">
@@ -82,8 +82,9 @@ I am a driven **Software Engineering Aspirant & Full-Stack Developer** pursuing 
 * **Frontend:** React, Tailwind CSS, Vercel routing models.
 * **Backend:** FastAPI, Python, SQLite database pools, automated course seeding.
 
-### 2. 🏥 [AcuMedic — Smart Healthcare Web Application](https://github.com/rajat0423/AcuMedic-Application)
-*A high-performance smart healthcare portal enabling AI-driven symptom diagnostics, virtual medical logs, and online patient-doctor booking systems.*
+### 2. 🏥 [AcuMedic — Smart Healthcare Web Application](https://github.com/rajat0423/AcuMedic-Application) 
+*A high-performance smart healthcare portal enabling AI-driven symptom diagnostics, virtual medical logs, and online patient-doctor booking systems.*  
+**👉 [Live Demo](https://acu-medic-application-jcbx.vercel.app/)**
 * **Tech Stack:** TypeScript, React.js, Tailwind CSS, Vercel.
 * **Key Features:** Advanced symptom analyzer, multi-role user dashboards, and multilingual support.
 
@@ -93,7 +94,8 @@ I am a driven **Software Engineering Aspirant & Full-Stack Developer** pursuing 
 * **Key Features:** Automated SGPA calculators, statistical performance charts.
 
 ### 4. 🥘 [AI-Rasoi — Intelligent Recipe Generator](https://github.com/rajat0423/AI-Recipe-Generator)
-*A sleek culinary application enabling users to curate recipe plans based on ingredient lists and precise dietary requirements.*
+*A sleek culinary application enabling users to curate recipe plans based on ingredient lists and precise dietary requirements.*  
+**👉 [Live Demo](https://ai-rasoi-application-6ljoaafoz.vercel.app/)**
 * **Tech Stack:** TypeScript, React.js, Vite, Tailwind CSS.
 * **Key Features:** Responsive ingredient-filtering, detailed instruction cards, fast search index.
 
