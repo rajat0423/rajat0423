@@ -20,12 +20,12 @@
 
 ## 💫 About Me
 
-I am a passionate **Full-Stack Developer & AI Enthusiast** pursuing my studies in Computer Science at **Rajkiya Engineering College Banda**. I specialize in engineering responsive, premium web applications, integrating AI workflows, and optimizing database backends.
+I am a driven **Software Engineering Aspirant & Full-Stack Developer** pursuing my B.Tech in **Information Technology** at **Rajkiya Engineering College Banda** (affiliated with Dr. APJ Abdul Kalam Technical University, Lucknow). I focus on engineering modular, scalable web systems, integrating cognitive AI modules, and developing secure user workflows.
 
-* 🎓 **Education:** B.Tech in Computer Science & Engineering @ **Rajkiya Engineering College Banda**
-* ⚡ **Current Project:** Building and deploying **AI LMS (Aao Seekhe Live)** - an intelligent, interactive Learning Management System powered by FastAPI, SQLite, and React.
-* 🌱 **Learning Path:** Advanced AI agents, deep learning integrations, and containerized microservice architectures.
-* 💬 **Ask me about:** React state management, FastAPI endpoints, Google OAuth integrations, and styling clean, glassmorphic UI components.
+* 🎓 **Education:** B.Tech in Information Technology @ **REC Banda** (2023 - 2027 | CGPA: 7.32)
+* ⚡ **Major Project:** Creator of **AI LMS (Aao Seekhe Live)** - an intelligent, fully deployed educational system with SQLite engines, secure authentication, and a responsive React UI.
+* 🛡️ **Technical Leadership:** Coordinating campus training & student recruitment operations.
+* 💬 **Topic Focus:** React component hierarchies, FastAPI router setups, schema validators (Pydantic), and database migration patterns.
 
 ---
 
@@ -33,32 +33,29 @@ I am a passionate **Full-Stack Developer & AI Enthusiast** pursuing my studies i
 
 <table width="100%">
   <tr>
-    <td width="33%" align="center"><strong>Frontend Engineering</strong></td>
-    <td width="33%" align="center"><strong>Backend & Databases</strong></td>
-    <td width="33%" align="center"><strong>Tools & Cloud Platforms</strong></td>
+    <td width="33%" align="center"><strong>Programming Languages</strong></td>
+    <td width="33%" align="center"><strong>Web Technologies</strong></td>
+    <td width="33%" align="center"><strong>Databases & Platforms</strong></td>
   </tr>
   <tr>
     <td valign="top">
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" /><br/>
-      <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><br/>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /><br/>
-      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" /><br/>
-      <img src="https://img.shields.io/badge/HTML5-E34C26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" /><br/>
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+      • Python <br/>
+      • C / C++ <br/>
+      • Java <br/>
+      • JavaScript / ES6+
     </td>
     <td valign="top">
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /><br/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br/>
-      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" /><br/>
-      <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /><br/>
-      <img src="https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=api&logoColor=white" alt="REST API" />
+      • React.js (Vite) <br/>
+      • TypeScript <br/>
+      • FastAPI <br/>
+      • Tailwind CSS <br/>
+      • HTML5 & CSS3
     </td>
     <td valign="top">
-      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" /><br/>
-      <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white" alt="GitHub" /><br/>
-      <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" /><br/>
-      <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white" alt="Render" /><br/>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      • SQLite & PostgreSQL <br/>
+      • Git & GitHub <br/>
+      • Vercel & Render <br/>
+      • VS Code
     </td>
   </tr>
 </table>
@@ -78,30 +75,47 @@ I am a passionate **Full-Stack Developer & AI Enthusiast** pursuing my studies i
 
 ---
 
-## 🌟 Featured Innovations
+## 🌟 Professional Projects
 
 ### 1. 🎓 [AI LMS — Aao Seekhe Live](https://github.com/rajat0423/AI-LMS)
-*A state-of-the-art interactive Learning Management System built using a split monorepo architecture, deploying the React client on Vercel and the FastAPI endpoint securely on Render.*
-* **Technologies:** Python, FastAPI, SQLite, React (Vite), CORS Middlewares, Google OAuth 2.0.
-* **Core Specs:** Automated modules database seeding, custom route exclusions for system rate-limiters, dynamic token authentication flow.
+*An intelligent, multi-layered Learning Management System designed to serve curriculum pathways, automated testing modules, and responsive student workspaces.*
+* **Frontend:** React, Tailwind CSS, Vercel routing models.
+* **Backend:** FastAPI, Python, SQLite database pools, automated course seeding.
 
-### 2. 🍲 [AI Recipe Generator](https://github.com/rajat0423/AI-Recipe-Generator)
-*A sleek and interactive application that uses machine intelligence to synthesize custom meal recommendations, ingredient preparation procedures, and grocery specifications.*
-* **Technologies:** TypeScript, React, Vite, Tailwind CSS.
-* **Core Specs:** Responsive masonry layout, fluid state management, instant search index.
+### 2. 🏥 [AcuMedic — Smart Healthcare Web Application](https://github.com/rajat0423/AcuMedic-Application)
+*A high-performance smart healthcare portal enabling AI-driven symptom diagnostics, virtual medical logs, and online patient-doctor booking systems.*
+* **Tech Stack:** TypeScript, React.js, Tailwind CSS, Vercel.
+* **Key Features:** Advanced symptom analyzer, multi-role user dashboards, and multilingual support.
 
-### 3. 📊 [Student Report Card Analyzer](https://github.com/rajat0423/Student-Report-Card-Analyzer)
-*A Python-driven utility tailored for parsing student academic logs, performing distribution tests, and exporting analytics spreadsheets.*
-* **Technologies:** Python, Data Visualization Libraries.
-* **Core Specs:** Automated CSV parser, visual report generator.
+### 3. 📊 [Student Report Analyzer & Prediction System](https://github.com/rajat0423/Student-Report-Card-Analyzer)
+*An analytical tool built to digest student academic records, automate grade distributions, detect weak course areas, and generate custom study roadmaps.*
+* **Tech Stack:** Python, Streamlit, Pandas, Plotly.
+* **Key Features:** Automated SGPA calculators, statistical performance charts.
 
-### 4. 🍽️ [Restaurant Platform](https://github.com/rajat0423/Restaurant)
-*An online booking, cataloging, and promotional platform designed for digital restaurant reservations and real-time menu management.*
-* **Technologies:** HTML5, CSS3, JavaScript.
-* **Core Specs:** High-fidelity micro-interactions, responsive design matrices.
+### 4. 🥘 [AI-Rasoi — Intelligent Recipe Generator](https://github.com/rajat0423/AI-Recipe-Generator)
+*A sleek culinary application enabling users to curate recipe plans based on ingredient lists and precise dietary requirements.*
+* **Tech Stack:** TypeScript, React.js, Vite, Tailwind CSS.
+* **Key Features:** Responsive ingredient-filtering, detailed instruction cards, fast search index.
+
+### 5. 🩸 [BloodBank Management System](https://github.com/rajat0423/bloodbankmanagement)
+*A secure management console created for coordinating blood inventory, registering local donors, and streamlining request pipelines.*
+* **Key Features:** Role-based access gates (Donors, Hospitals, Administrators), live inventory tables.
+
+---
+
+## 👔 Positions of Responsibility
+
+### 🤝 Deputy Co-ordinator — Training & Placement Cell, REC Banda
+* *Campus Recruitment:* Coordinate local campus hiring initiatives, scheduling mock assessments and technical bootcamps.
+* *Enterprise Liaison:* Collaborate with corporate partners to organize guest lectures and placement interviews.
+* *Student Database:* Secure and organize placement records for 200+ students.
+
+### 💻 Co-ordinator — Web Development Club, REC Banda
+* *Workshops:* Led workshops on **C Programming**, **JavaScript**, and **Python** to build solid engineering foundations for 100+ first-year students.
+* *Event Directing:* Headed hackathons and interactive code challenges, managing logistics and scoring grids.
 
 ---
 
 <p align="center">
-  <sub>Designed with ❤️ by Rajat Tripathi. <i>"Code is poetry, write it beautifully."</i></sub>
+  <sub>Detailed portfolio configured based on Rajat's active professional resume. <i>"Code is poetry, write it beautifully."</i></sub>
 </p>
