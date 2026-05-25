@@ -1,0 +1,232 @@
+<svg fill="none" viewBox="0 0 800 300" width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes rotate-gradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
+        @keyframes pulse-glow {
+          0%, 100% {
+            opacity: 0.25;
+            transform: scale(1);
+          }
+          50% {
+            opacity: 0.45;
+            transform: scale(1.05);
+          }
+        }
+
+        @keyframes type-text {
+          0%, 10% { content: ""; }
+          12% { content: "R"; }
+          14% { content: "Ra"; }
+          16% { content: "Raj"; }
+          18% { content: "Raja"; }
+          20% { content: "Rajat"; }
+          22% { content: "Rajat "; }
+          24% { content: "Rajat T"; }
+          26% { content: "Rajat Tr"; }
+          28% { content: "Rajat Tri"; }
+          30% { content: "Rajat Trip"; }
+          32% { content: "Rajat Tripat"; }
+          34% { content: "Rajat Tripath"; }
+          36%, 50% { content: "Rajat Tripathi"; }
+          
+          /* Second phrase: Full-Stack Developer */
+          52% { content: "Full-Stack Dev"; }
+          54% { content: "Full-Stack Devel"; }
+          56% { content: "Full-Stack Develop"; }
+          58% { content: "Full-Stack Develope"; }
+          60%, 75% { content: "Full-Stack Developer"; }
+          
+          /* Third phrase: AI Innovator */
+          77% { content: "AI En"; }
+          79% { content: "AI Enthu"; }
+          81% { content: "AI Enthusi"; }
+          83% { content: "AI Enthusiast"; }
+          85%, 100% { content: "AI Enthusiast"; }
+        }
+
+        @keyframes blink-caret {
+          from, to { border-color: transparent }
+          50% { border-color: #3b82f6; }
+        }
+
+        .container {
+          position: relative;
+          width: 800px;
+          height: 300px;
+          background: #090d16;
+          font-family: 'Outfit', 'Segoe UI', system-ui, -apple-system, sans-serif;
+          overflow: hidden;
+          box-sizing: border-box;
+          border: 2px solid rgba(59, 130, 246, 0.2);
+          border-radius: 16px;
+        }
+
+        .bg-grid {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-image: 
+            linear-gradient(rgba(59, 130, 246, 0.05) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(59, 130, 246, 0.05) 1px, transparent 1px);
+          background-size: 20px 20px;
+          opacity: 0.8;
+        }
+
+        .orb {
+          position: absolute;
+          border-radius: 50%;
+          filter: blur(80px);
+          mix-blend-mode: screen;
+          animation: pulse-glow 8s ease-in-out infinite;
+        }
+
+        .orb-blue {
+          top: -50px;
+          left: -50px;
+          width: 250px;
+          height: 250px;
+          background: radial-gradient(circle, #3b82f6 0%, transparent 70%);
+        }
+
+        .orb-purple {
+          bottom: -80px;
+          right: -50px;
+          width: 300px;
+          height: 300px;
+          background: radial-gradient(circle, #8b5cf6 0%, transparent 70%);
+          animation-delay: -4s;
+        }
+
+        .orb-red {
+          top: 80px;
+          left: 50%;
+          width: 200px;
+          height: 200px;
+          background: radial-gradient(circle, #ec4899 0%, transparent 70%);
+          animation-delay: -2s;
+        }
+
+        .content {
+          position: relative;
+          z-index: 10;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          height: 100%;
+          padding: 0 50px;
+          box-sizing: border-box;
+        }
+
+        .tagline {
+          font-size: 14px;
+          font-weight: 600;
+          letter-spacing: 3px;
+          color: #3b82f6;
+          text-transform: uppercase;
+          margin-bottom: 8px;
+          text-shadow: 0 0 10px rgba(59, 130, 246, 0.3);
+        }
+
+        .title {
+          font-size: 48px;
+          font-weight: 800;
+          margin: 0;
+          color: #ffffff;
+          line-height: 1.1;
+        }
+
+        .animated-text {
+          min-height: 55px;
+          display: flex;
+          align-items: center;
+          margin-top: 5px;
+        }
+
+        .typed-text::before {
+          content: "";
+          animation: type-text 15s infinite;
+          background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #f472b6 100%);
+          background-size: 200% auto;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          animation-timing-function: steps(1, end);
+        }
+
+        .typed-text {
+          font-size: 38px;
+          font-weight: 700;
+          border-right: 3px solid #3b82f6;
+          white-space: nowrap;
+          padding-right: 5px;
+          animation: blink-caret 0.75s step-end infinite;
+          display: inline-block;
+        }
+
+        .subtitle {
+          font-size: 16px;
+          color: #94a3b8;
+          margin-top: 15px;
+          font-weight: 400;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+
+        .rec-tag {
+          font-weight: 500;
+          color: #f472b6;
+          border: 1px solid rgba(244, 114, 182, 0.3);
+          background: rgba(244, 114, 182, 0.05);
+          padding: 2px 8px;
+          border-radius: 20px;
+          font-size: 12px;
+        }
+
+        .glowing-bar {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 4px;
+          background: linear-gradient(90deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+          background-size: 300% 100%;
+          animation: rotate-gradient 4s linear infinite;
+        }
+      </style>
+
+      <div class="container">
+        <div class="bg-grid"></div>
+        <div class="orb orb-blue"></div>
+        <div class="orb orb-purple"></div>
+        <div class="orb orb-red"></div>
+        
+        <div class="content">
+          <div class="tagline">Welcome to my universe</div>
+          <h1 class="title">I'm</h1>
+          <div class="animated-text">
+            <span class="typed-text"></span>
+          </div>
+          <div class="subtitle">
+            <span>📍 Rajkiya Engineering College Banda</span>
+            <span class="rec-tag">Computer Science</span>
+          </div>
+        </div>
+        
+        <div class="glowing-bar"></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
