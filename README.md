@@ -11,8 +11,8 @@
   <a href="mailto:trajat905@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://aaoseekhe.live" target="_blank">
-    <img src="https://img.shields.io/badge/Website-Aaoseekhe.live-3b82f6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="LMS Website" />
+  <a href="https://aaoseekhelive.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Website-aaoseekhelive.vercel.app-3b82f6?style=for-the-badge&logo=google-chrome&logoColor=white" alt="LMS Website" />
   </a>
 </p>
 
@@ -88,18 +88,23 @@ I am a driven **Software Engineering Aspirant & Full-Stack Developer** pursuing 
 * **Tech Stack:** TypeScript, React.js, Tailwind CSS, Vercel.
 * **Key Features:** Advanced symptom analyzer, multi-role user dashboards, and multilingual support.
 
-### 3. 📊 [Student Report Analyzer & Prediction System](https://github.com/rajat0423/Student-Report-Card-Analyzer)
+### 3. 🧘 [I Am Buddy — Mental Wellness Companion](https://github.com/rajat0423/iamBuddy)
+*A comprehensive companion web application designed to support mental well-being, featuring anxiety-relief exercises, cognitive refocusing games, and anonymous support logging.*
+* **Tech Stack:** React.js, Firebase, Framer Motion, Recharts.
+* **Key Features:** Real-time Firebase-synced journal logs, mood trackers with Recharts analytics, and 4 canvas-based stress-relief mini-games.
+
+### 4. 📊 [Student Report Analyzer & Prediction System](https://github.com/rajat0423/Student-Report-Card-Analyzer)
 *An analytical tool built to digest student academic records, automate grade distributions, detect weak course areas, and generate custom study roadmaps.*
 * **Tech Stack:** Python, Streamlit, Pandas, Plotly.
 * **Key Features:** Automated SGPA calculators, statistical performance charts.
 
-### 4. 🥘 [AI-Rasoi — Intelligent Recipe Generator](https://github.com/rajat0423/AI-Recipe-Generator)
+### 5. 🥘 [AI-Rasoi — Intelligent Recipe Generator](https://github.com/rajat0423/AI-Recipe-Generator)
 *A sleek culinary application enabling users to curate recipe plans based on ingredient lists and precise dietary requirements.*  
 **👉 [Live Demo](https://ai-rasoi-application-6ljoaafoz.vercel.app/)**
 * **Tech Stack:** TypeScript, React.js, Vite, Tailwind CSS.
 * **Key Features:** Responsive ingredient-filtering, detailed instruction cards, fast search index.
 
-### 5. 🩸 [BloodBank Management System](https://github.com/rajat0423/bloodbankmanagement)
+### 6. 🩸 [BloodBank Management System](https://github.com/rajat0423/bloodbankmanagement)
 *A secure management console created for coordinating blood inventory, registering local donors, and streamlining request pipelines.*
 * **Key Features:** Role-based access gates (Donors, Hospitals, Administrators), live inventory tables.
 
